@@ -35,6 +35,5 @@ nosetests.xml
 .pydevproject
 
 #musicpsa
-originals/
 reports/
 outputs/
