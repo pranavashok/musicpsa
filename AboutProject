@@ -1,0 +1,14 @@
+The project started off as a means to find out whether it was possible to model music using some kind of automata. In the beginning stages, Prediction Suffix Automata was used along with Hidden Markov Models to learn and compose western classical music. The focus was slowly shifted to Indian Classical Music and certain simple raagas could be captured and reproduced by the model. Complex raagas such as Durbari were not reproduced with all its intricacies.
+
+This project involved creating an interface which used a standard webcam to recognize hand gestures and link them to certain keystrokes. Two techniques were used to recognize the gestures - one which was sensitive to color and other which recognized the hue. The position of the centre of mass of the sensitive region was used to move the mouse or map to keystrokes. This was later connected and used to play a racing game, mimicking the functionality of Xbox Kinect.
+
+
+For my undergrad project, I worked under the guidance of Dr Muralikrishnan, CSED, NIT Calicut. The project started off as a means to find out whether it was possible to model music using some kind of automata.
+
+We explored composition of music using the mathematical model of Prediction Suffix Automata. When given an input sequence(s), a model is created from which random runs (following the transition probabilities) give new compositions.
+
+The project was started with western music in mind (pianos, chords and notes etc). The Hidden Markov Model (HMM) portion was written so as to associate chords with notes. But it turned out difficult to extract chords and notes and generate compositions in which the chords weren't in *complete* sync with the notes (i.e. in our results, chords were struck every time a note was played). Soon afterward, we abandoned further improvements in the western side and focused on Hindustani/Carnatic music. With certain tweaks to the PSA, we were able to generate pretty good results for simple raags and average results for more complex raags (like the durbari).
+
+Further research with the help of a person knowledgable in music is required to perfect this.
+
+We concluded that the mathematical model of Prediction Suffix Automata, could model the randomness in simple music with sufficient perfection.
