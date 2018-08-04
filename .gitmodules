@@ -1,7 +1,0 @@
-[submodule "hmmpy"] 
-  path = hmmpy
-  url = git@github.com:sharathgeorge/Hmm-python.git
-
-[submodule "pypsa"] 
-  path = pypsa
-  url = https://github.com/pranavashok/pypsa
