@@ -35,16 +35,16 @@ Overview of the folders
 Requirements
 ------------
 
-Python 3
-Music21 - can be installed with `pip3 install music21` (http://web.mit.edu/music21)
-hmmpy - included (previously https://github.com/sharathgeorge/Hmm-python)
-pypsa - included (previously https://github.com/pranavashok/pypsa)
+- Python 3
+- Music21 - can be installed with `pip3 install music21` (http://web.mit.edu/music21)
+- hmmpy - included (previously https://github.com/sharathgeorge/Hmm-python)
+- pypsa - included (previously https://github.com/pranavashok/pypsa)
 
 
 Usage
 -----
 
-python generate.py input-track.midi [input-track2.midi input-track3.midi ...] output.midi
+`python generate.py input-track.midi [input-track2.midi input-track3.midi ...] output.midi`
 
 
 Contact
@@ -79,5 +79,7 @@ Share Alike — If you alter, transform, or build upon this work, you may distri
 
 Credits
 -------
+
+Schulze, Walter (2010). A formal language theory approach to music generation. Master's Thesis. http://hdl.handle.net/10019.1/4157.
 
 The sample inputs sorted and categorized by the Thaat name in the originals folder was taken from - http://www.cse.iitk.ac.in/users/tvp/music/
