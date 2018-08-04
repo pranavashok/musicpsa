@@ -1,2 +1,2 @@
-Hmm-python
-==========
+A hidden markov model library
+-----------------------------
