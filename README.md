@@ -35,16 +35,16 @@ Overview of the folders
 Requirements
 ------------
 
-Python 2.7 (3.0 doesn't work, due to incompatibility with the music21 library)
-Music21 (http://web.mit.edu/music21)
-hmmpy - included (https://github.com/sharathgeorge/Hmm-python)
-pypsa - included (https://github.com/pranavashok/pypsa)
+Python 3
+Music21 - can be installed with `pip3 install music21` (http://web.mit.edu/music21)
+hmmpy - included (previously https://github.com/sharathgeorge/Hmm-python)
+pypsa - included (previously https://github.com/pranavashok/pypsa)
 
 
 Usage
 -----
 
-python2.7 generate.py input-track.midi [input-track2.midi input-track3.midi ...] output.midi
+python generate.py input-track.midi [input-track2.midi input-track3.midi ...] output.midi
 
 
 Contact
