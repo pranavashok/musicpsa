@@ -120,12 +120,12 @@ durations = []
 for i in range(0,10):
 	durations.append(D.generate_run(states, transition, nextstate, 1500).split(" "))
 
-for k in xrange(0,10):
+for k in range(0,10):
 	a = stream.Part()
 	full = stream.Stream()
 	#ins = instrument.Violin()
 	#a.append(ins)
-	for i in xrange(0, len(notes[k])):
+	for i in range(0, len(notes[k])):
 		d = duration.Duration(float(durations[k][i]))
 		n = note.Note(notes[k][i])
 		n.volume.velocity = 127
